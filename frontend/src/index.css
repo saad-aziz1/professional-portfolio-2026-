@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #020617;
+  --color-light-bg: #f8fafc;
+  
+  --color-nav-bg: #0f172a;
+  --color-btn-orange: #f59e0b;
+  --color-success: #10b981;
+}
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply bg-[--color-light-bg] text-slate-900 transition-colors duration-500 ease-in-out;
+  }
+
+  
+  .dark body {
+    @apply bg-[--color-dark-bg] text-slate-100;
+  }
+}
