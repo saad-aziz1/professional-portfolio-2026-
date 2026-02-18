@@ -22,3 +22,7 @@
     @apply bg-[--color-dark-bg] text-slate-100;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
