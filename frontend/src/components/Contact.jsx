@@ -66,10 +66,10 @@ const Contact = () => {
               <a href="https://github.com/saad-aziz1" target="_blank" rel="noopener noreferrer" className="p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:bg-[#0F172A] hover:text-white transition-all text-[#0F172A] dark:text-white border border-slate-100 dark:border-slate-700">
                 <Github size={24} />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:bg-[#0077b5] hover:text-white transition-all text-[#0F172A] dark:text-white border border-slate-100 dark:border-slate-700">
+              <a href="https://www.linkedin.com/in/saad-aziz-90533b239/" target="_blank" rel="noopener noreferrer" className="p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:bg-[#0077b5] hover:text-white transition-all text-[#0F172A] dark:text-white border border-slate-100 dark:border-slate-700">
                 <Linkedin size={24} />
               </a>
-              <a href="https://wa.me/yournumber" target="_blank" rel="noopener noreferrer" className="p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:bg-[#25D366] hover:text-white transition-all text-[#0F172A] dark:text-white border border-slate-100 dark:border-slate-700">
+              <a href="https://wa.me/+923135609226" target="_blank" rel="noopener noreferrer" className="p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-lg hover:bg-[#25D366] hover:text-white transition-all text-[#0F172A] dark:text-white border border-slate-100 dark:border-slate-700">
                 <WhatsAppIcon size={24} />
               </a>
             </div>

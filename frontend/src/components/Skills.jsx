@@ -50,9 +50,9 @@ const Skills = () => {
           viewport={{ once: true }}
           className="text-center lg:text-left mb-16"
         >
-          <span className="text-secondary font-bold tracking-widest text-sm uppercase">My Expertise</span>
+          <span className="text-secondary font-bold tracking-widest text-sm uppercase text-[#ee9e1e]">My Expertise</span>
           <h2 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white mt-2">
-            Technical <span className="text-secondary">Skills</span>.
+            Technical <span className="text-secondary text-[#ee9e1e]">Skills</span>.
           </h2>
         </motion.div>
 

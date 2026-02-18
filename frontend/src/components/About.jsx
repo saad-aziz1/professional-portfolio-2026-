@@ -33,11 +33,11 @@ const About = () => {
                 {/* Header */}
 
                 <div className="mb-16 space-y-2">
-                    <span className="text-secondary font-bold tracking-widest text-sm">
+                    <span className="text-secondary font-bold tracking-widest text-sm text-[#ee9e1e]">
                         MY BIOGRAPHY
                     </span>
                     <h2 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white">
-                        Beyond the <span className="text-secondary">Code</span>.
+                        Beyond<span className="text-secondary text-[#ee9e1e]"> the Code</span>.
                     </h2>
                 </div>
 

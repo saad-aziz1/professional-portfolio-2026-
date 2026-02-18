@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between relative z-20 bg-[#FEFFF2] dark:bg-transparent">
         
         {/* Logo */}
-        <div className="text-2xl font-bold bg-gradient-to-r from-secondary to-orange-600 bg-clip-text text-transparent cursor-pointer">
+        <div className="text-2xl font-bold bg-gradient-to-r from-secondary to-[#ee9e1e] bg-clip-text text-transparent cursor-pointer">
           PORTFOLIO
         </div>
 

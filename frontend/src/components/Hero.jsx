@@ -42,7 +42,7 @@ const Hero = () => {
             Available for Projects
           </h2>
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-slate-900 dark:text-white leading-[1.1] mb-6">
-            Hi, I'm Saad, <span className="text-secondary">MERN</span> Developer
+            Hi, I'm Saad, <span className="text-secondary text-[#ee9e1e]">MERN</span> <span className='text-[#ee9e1e]'>Developer</span>
           </h1>
           
           <p className="text-slate-600 dark:text-slate-400 text-base md:text-lg lg:text-xl mb-8 max-w-lg mx-auto lg:mx-0">
