@@ -23,7 +23,7 @@ export const handleContactForm = async (req, res) => {
       </div>
     `;
 
-    //Send Email using Utility
+    
     await sendEmail({
       to: process.env.BREVO_USER, 
       subject: `Portfolio: ${subject}`,
