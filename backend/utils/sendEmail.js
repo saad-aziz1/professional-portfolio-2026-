@@ -1,33 +1,28 @@
-// Brevo API ke zariye email bhejne ka logic
-const sendEmail = async ({ to, subject, html }) => {
+import { Resend } from 'resend';
+import dotenv from 'dotenv'; 
+dotenv.config();
+
+const resend = new Resend(process.env.RESEND_API_KEY);
+
+const sendEmail = async ({ fromUser, userEmail, subject, html }) => {
   try {
-    const response = await fetch("https://api.brevo.com/v3/smtp/email", {
-      method: "POST",
-      headers: {
-        "accept": "application/json",
-        "api-key": process.env.BREVO_API_KEY, 
-        "content-type": "application/json",
-      },
-      body: JSON.stringify({
-        sender: { 
-          name: "Portfolio Contact", 
-          email: process.env.BREVO_USER 
-        },
-        to: [{ email: to }], 
-        subject: subject,
-        htmlContent: html,
-      }),
+    const { data, error } = await resend.emails.send({
+      from: 'Portfolio <onboarding@resend.dev>', 
+      to: [process.env.RESEND_VERIFIED_EMAIL], 
+      subject: `Portfolio: ${subject}`,
+      
+      html: `
+        <h3>New Message from ${fromUser}</h3>
+        <p><strong>User Email:</strong> ${userEmail}</p>
+        <hr />
+        ${html}
+      `,
     });
 
-    const data = await response.json();
-
-    if (!response.ok) {
-      throw new Error(data.message || "Brevo API call failed");
-    }
-
+    if (error) throw new Error(error.message);
     return data;
   } catch (error) {
-    console.error("Brevo Utility Error:", error.message);
+    console.error("Resend Error:", error.message);
     throw error;
   }
 };
