@@ -50,7 +50,7 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-8">
-            
+            {/* button */}
             <a href="#contact" className="w-full sm:w-auto">
               <button className="w-full sm:w-auto bg-[#F59E0B] text-white px-10 py-4 rounded-xl font-bold transition-all transform hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(245,158,11,0.3)] active:scale-95 shadow-lg">
                 Hire Me
