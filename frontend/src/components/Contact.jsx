@@ -26,7 +26,7 @@ const Contact = () => {
 
     try {
       
-      const res = await axios.post('http://localhost:5001/api/contact/send', formData);
+      const res = await axios.post('https://saad-professional-portfolio.onrender.com/api/contact', formData);
       
       if (res.status === 200) {
         toast.success("Message sent successfully!"); 
