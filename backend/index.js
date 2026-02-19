@@ -9,9 +9,10 @@ const app = express();
 
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https://your-vercel-link.vercel.app"], 
+  origin: "https://saad-dev-portfolio-beta.vercel.app", 
+  methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
-}));
+}))
 app.use(express.json()); 
 
 
