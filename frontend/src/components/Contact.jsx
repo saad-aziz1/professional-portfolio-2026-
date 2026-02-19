@@ -70,7 +70,7 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-4 text-[#0F172A] dark:text-slate-200">
                 <div className="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-md border border-slate-100 dark:border-slate-700"><Mail className="text-[#F59E0B]" size={24} /></div>
-                <span className="font-bold">saadaziz@example.com</span>
+                <span className="font-bold">saadaziz.official@gmail.com</span>
               </div>
               <div className="flex items-center gap-4 text-[#0F172A] dark:text-slate-200">
                 <div className="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-md border border-slate-100 dark:border-slate-700"><MapPin className="text-[#F59E0B]" size={24} /></div>

@@ -50,16 +50,16 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mt-8">
-
-            <a href="#contact" className="inline-block">
-              <button className="bg-[#F59E0B] text-white px-10 py-4 rounded-xl font-bold transition-all transform hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(245,158,11,0.3)] active:scale-95 shadow-lg">
+            {/* Hire Me Button */}
+            <a href="#contact" className="w-full sm:w-auto">
+              <button className="w-full sm:w-auto bg-[#F59E0B] text-white px-10 py-4 rounded-xl font-bold transition-all transform hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(245,158,11,0.3)] active:scale-95 shadow-lg">
                 Hire Me
               </button>
             </a>
 
-
-            <a href="#projects" className="inline-block ml-4">
-              <button className="border-2 border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white px-10 py-4 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all active:scale-95">
+            {/* View Work Button */}
+            <a href="#projects" className="w-full sm:w-auto"> {/* Remove ml-4 here */}
+              <button className="w-full sm:w-auto border-2 border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white px-10 py-4 rounded-xl font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all active:scale-95">
                 View Work
               </button>
             </a>
